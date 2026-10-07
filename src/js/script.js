@@ -18,3 +18,24 @@ const resultadoMaiorOuIgual = valorB >= valorA;
 console.log(`${valorA} != ${valorB}:`, resultadoDiferente);
 console.log(`${valorA} === ${valorB}:`, resultadoEstritamenteIgual);
 console.log(`${valorB} >= ${valorA}:`, resultadoMaiorOuIgual);
+
+
+// =====================================================
+// Exercicio 2
+// =====================================================
+console.log("\n========== Exercicio 2 ==========");
+
+let peso = parseFloat(prompt("Digite seu peso em kg: "));
+let altura = parseFloat(prompt("Digite sua altura em metros: "));
+let imc = peso / (altura * altura);
+
+if (imc < 18.5) {
+    alert(`Você está abaixo do peso. Seu IMC é de ${imc.toFixed(2)}`);
+}
+
+else if (imc >= 18.5 && imc <= 24.9) {
+    alert(`Você está com o peso normal. Seu IMC é de ${imc.toFixed(2)}`);
+}
+else {
+    alert(`Você está acima do peso. Seu IMC é de ${imc.toFixed(2)}`);
+}
