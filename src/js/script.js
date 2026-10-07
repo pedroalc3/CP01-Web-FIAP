@@ -39,3 +39,12 @@ else if (imc >= 18.5 && imc <= 24.9) {
 else {
     alert(`Você está acima do peso. Seu IMC é de ${imc.toFixed(2)}`);
 }
+
+// =====================================================
+// Exercicio 3
+// =====================================================
+console.log("\n========== Exercicio 3 ==========");
+
+for (numero = 1; numero <= 10; numero ++){
+    console.log("O valor da contagem é "+ numero)
+}
