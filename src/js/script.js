@@ -48,3 +48,31 @@ console.log("\n========== Exercicio 3 ==========");
 for (numero = 1; numero <= 10; numero ++){
     console.log("O valor da contagem é "+ numero)
 }
+
+// =====================================================
+// Exercício 3
+// =====================================================
+console.log("\n========== Exercício 3 ==========");
+
+for (let contagem = 1; contagem <= 10; contagem++) {
+    console.log(`O valor da contagem é: ${contagem}`);
+}
+
+// =====================================================
+// Exercício 4
+// =====================================================
+console.log("\n========== Exercício 4 ==========");
+
+const herois = [
+    "Thor",
+    "Hulk",
+    "Capitão América",
+    "Arqueiro",
+    "Viúva Negra"
+];
+
+console.log("Array completo:", herois);
+console.log("Elementos do Array:");
+herois.forEach((heroi, indice) => {
+    console.log(`${indice + 1} - ${heroi}`);
+});
