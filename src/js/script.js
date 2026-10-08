@@ -76,3 +76,36 @@ console.log("Elementos do Array:");
 herois.forEach((heroi, indice) => {
     console.log(`${indice + 1} - ${heroi}`);
 });
+
+// =====================================================
+// Exercício 5
+// =====================================================
+console.log("\n========== Exercício 5 ==========");
+
+const temPermissao = true;
+const mensagemPermissao = temPermissao
+    ? "Usuário possui permissão."
+    : "Usuário não possui permissão.";
+
+console.log(`Permissão: ${temPermissao}`);
+console.log(mensagemPermissao);
+
+// =====================================================
+// Exercício 6
+// =====================================================
+console.log("\n========== Exercício 6 ==========");
+
+const usuarioCadastrado = "admin";
+const senhaCadastrada = "1234";
+
+// Altere estes dois valores para testar outras situações de login.
+const usuarioDigitado = "admin";
+const senhaDigitada = "1234";
+
+if (usuarioDigitado === usuarioCadastrado && senhaDigitada === senhaCadastrada) {
+    console.log("Login realizado com sucesso!");
+} else {
+    console.log("Falha de autenticação. Usuário ou senha incorretos.");
+}
+
+console.log("Usuário testado:", usuarioDigitado);
