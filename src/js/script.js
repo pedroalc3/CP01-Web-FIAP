@@ -50,15 +50,6 @@ for (numero = 1; numero <= 10; numero ++){
 }
 
 // =====================================================
-// Exercício 3
-// =====================================================
-console.log("\n========== Exercício 3 ==========");
-
-for (let contagem = 1; contagem <= 10; contagem++) {
-    console.log(`O valor da contagem é: ${contagem}`);
-}
-
-// =====================================================
 // Exercício 4
 // =====================================================
 console.log("\n========== Exercício 4 ==========");
@@ -109,3 +100,31 @@ if (usuarioDigitado === usuarioCadastrado && senhaDigitada === senhaCadastrada) 
 }
 
 console.log("Usuário testado:", usuarioDigitado);
+
+// =====================================================
+// Exercício 7
+// =====================================================
+console.log("\n========== Exercício 7 ==========");
+
+const notas = [
+    7.0,
+    8.0,
+    6.5,
+    9.0,
+    5.5,
+    7.5,
+    8.5
+];
+
+const somaNotas = notas.reduce((soma, nota) => soma + nota, 0);
+const media = somaNotas / notas.length;
+
+console.log("Notas:", notas);
+console.log("Soma das notas:", somaNotas.toFixed(2));
+console.log("Média:", media.toFixed(2));
+
+if (media >= 6) {
+    console.log("Aluno aprovado!");
+} else {
+    console.log("Aluno reprovado!");
+}
