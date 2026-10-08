@@ -128,3 +128,11 @@ if (media >= 6) {
 } else {
     console.log("Aluno reprovado!");
 }
+
+// =====================================================
+// Exercício 8
+// =====================================================
+console.log("\n========== Exercício 8 ==========");
+
+let nome = prompt("Digite seu nome");
+console.log(`Olá dev ${nome}`);
