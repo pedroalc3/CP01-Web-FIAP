@@ -151,3 +151,14 @@ if (sn != sa) {
 } else {
     console.log("A nova senha precisa ser diferente da atual!");
 }
+
+
+// =====================================================
+// Exercício 10
+// =====================================================
+
+let valorProduto = parseFloat(prompt("Digite o valor do produto: "));
+const valorDesconto = 0.1;
+const valorFinal = valorProduto - (valorProduto * valorDesconto);
+
+console.log(`O valor final do produto será de: R$ ${valorFinal.toFixed(2)}`);
