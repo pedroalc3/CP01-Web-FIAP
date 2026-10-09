@@ -45,7 +45,7 @@ else {
 // =====================================================
 console.log("\n========== Exercicio 3 ==========");
 
-for (numero = 1; numero <= 10; numero ++){
+for (let numero = 1; numero <= 10; numero ++){
     console.log("O valor da contagem é "+ numero)
 }
 
