@@ -1,0 +1,19 @@
+EQUIPE: Projeto X
+
+
+INTEGRANTES
+
+Nome: Lucas Santos Duarte
+RM: 576486
+
+
+Nome: Matheus Girotto Rodrigues
+RM: 576353
+
+
+Nome: Pedro Frazao Alcantara
+RM: 574338
+
+
+
+LINK DO GITHUB: https://github.com/pedroalc3/CP01-Web-FIAP.git
