@@ -135,7 +135,7 @@ if (media >= 6) {
 console.log("\n========== Exercício 8 ==========");
 
 let nome = prompt("Digite seu nome");
-console.log(`Olá dev ${nome}`);
+alert(`Olá dev ${nome}`);
 
 
 // =====================================================
@@ -147,9 +147,9 @@ let sa = prompt("Digite sua senha atual: ");
 let sn = prompt("Digite uma nova senha: ");
 
 if (sn != sa) {
-    console.log("Senha alterada com sucesso!");
+    alert("Senha alterada com sucesso!");
 } else {
-    console.log("A nova senha precisa ser diferente da atual!");
+    alert("A nova senha precisa ser diferente da atual!");
 }
 
 
@@ -161,4 +161,4 @@ let valorProduto = parseFloat(prompt("Digite o valor do produto: "));
 const valorDesconto = 0.1;
 const valorFinal = valorProduto - (valorProduto * valorDesconto);
 
-console.log(`O valor final do produto será de: R$ ${valorFinal.toFixed(2)}`);
+alert(`O valor final do produto será de: R$ ${valorFinal.toFixed(2)}`);
